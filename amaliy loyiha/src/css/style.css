@@ -1,0 +1,581 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.navbar {
+  background-color: #ffffff;
+}
+.navbar .navbar-brand {
+  color: #5A2ED6;
+  font-weight: bold;
+}
+.navbar .navbar-brand:hover {
+  color: #4722af;
+}
+.navbar .nav-link {
+  color: black;
+  font-weight: 500;
+}
+.navbar .nav-link:hover {
+  color: #5A2ED6;
+}
+.navbar .form-control {
+  border-radius: 20px;
+}
+.navbar .form-control::-moz-placeholder {
+  color: #555454;
+}
+.navbar .form-control::placeholder {
+  color: #555454;
+}
+.navbar .btn-upload {
+  background-color: #5A2ED6;
+  color: white;
+  border-radius: 20px;
+  padding: 0.375rem 1rem;
+}
+.navbar .btn-upload:hover {
+  background-color: #4722af;
+}
+.navbar .btn-connect {
+  color: #5A2ED6;
+  border: 2px solid #5A2ED6;
+  border-radius: 20px;
+  padding: 0.375rem 1rem;
+  background-color: transparent;
+}
+.navbar .btn-connect:hover {
+  color: white;
+  background-color: #5A2ED6;
+}
+.text-section h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.text-section p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.text-section .btn {
+  background-color: #4A3AFF;
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+.stats {
+  display: flex;
+  margin-top: 20px;
+}
+
+.stat {
+  margin-right: 20px;
+}
+
+.stat h3 {
+  font-weight: 700;
+  margin: 0;
+}
+
+.stat p {
+  margin: 0;
+  color: gray;
+}
+
+.image-section {
+  position: relative;
+}
+
+.card {
+  border-radius: 20px;
+  color: white;
+  padding: 15px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  position: absolute;
+}
+
+
+.user-logo{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url(../img/user.png);
+  background-position: center;
+  background-size: cover;
+}
+.card1 {
+  width: 270px;
+  height: 300px;
+  background: url(../img/3.jfif);
+  background-position: bottom;
+  background-size: cover;
+  z-index: 3;
+  top: 0;
+  left: 0;
+}
+
+.card2 {
+  width: 260px;
+  height: 280px;
+  background: url(../img/2.jfif);
+  z-index: 2;
+  top: 10px;
+  left: 30px;
+}
+.card3 {
+  width: 250px;
+  height: 260px;
+  background: url(../img/1.jfif);
+  z-index: 1;
+  top: 20px;
+  left: 60px;
+}
+
+.card-body {
+  position: relative;
+  z-index: 5;
+}
+
+.card-title {
+  font-weight: 700;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+.bid, .time {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+}
+
+.time {
+  align-items: flex-end; 
+}
+
+.bid span, .time span {
+  font-size: 0.8rem;
+  color: white;
+}
+
+.bid strong, .time strong {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+.my-color{
+  margin-top: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgba(96, 168, 230, 0.8);
+}
+.my-text{
+  font-size: 28px;
+  font:100;
+}
+    .feature-box {
+      text-align: center;
+      padding: 20px;
+    }
+    .my-box{
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background-color: #f8f9fa;
+    }
+    .icon {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      display: block;
+    }
+    .main-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .first-image-box{
+      border-radius: 20px;
+      width: 100%;
+      height: 50vh;
+      background-image: url(../img/4.png);
+      background-position: center;
+      background-size: cover;
+    }
+    .compact-card {
+      display: flex;
+      align-items: center;
+      max-width: 500px;
+      border-radius: 10px;
+  }
+  .image-section {
+      background-color: yellow;
+      width: 250px;
+      height: 200px;
+      border-radius: 10px;
+  }
+  .content-section {
+      padding: 10px;
+  }
+  .title {
+      font-weight: bold;
+      font-size: 1.2rem;
+  }
+  .info {
+      font-size: 0.9rem;
+      color: #666;
+  }
+  .price {
+      color: #2ecc71;
+      font-weight: bold;
+      margin-right: 5px;
+  }
+    .col-equal {
+      height: 75vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .card-image-large {      
+      background-image: url(../img/4.png); 
+      background-size: cover;
+      background-position: center;
+      height: 80%; 
+      border-radius: 15px;
+    }
+    .card-image-medium {
+      background-image: url(../img/firts-bid.png);
+     background-position: center;
+     background-size: cover;
+      height: 150px; 
+      border-radius: 10px;
+      margin-bottom: 1rem;
+      width: 60%;
+    }
+    .img2{
+      background-image: url(../img/second-bid.png);
+    }
+    .img3{
+      background-image: url(../img/third-bid.png);
+    }
+    .image-caption {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+    .caption-content {
+      margin-left: 1rem;
+    }
+    .place-bid {
+      background-color: #ffffff;
+      color: #6c63ff;
+      border: 2px solid #6c63ff;
+      border-radius: 20px;
+      padding: 5px 15px;
+      font-weight: bold;
+    }
+    .collections-section {
+      font-family: Arial, sans-serif;
+      color: #333;
+      width: 300px;
+    }
+    
+    .collections-section h2 {
+      font-size: 1.5em;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    .subtitle {
+      color: #6b0fcf;
+      font-weight: bold;
+    }
+    
+    .collections-list {
+      list-style: none;
+      padding: 0;
+      margin-top: 20px;
+    }
+    
+    .collection-item {
+      display: flex;
+      align-items: center;
+      border-top: 1px solid #ddd;
+      padding: 10px 0;
+    }
+    
+    .collection-item:first-child {
+      border-top: none;
+    }
+    
+    .rank {
+      font-size: 1.3em;
+      font-weight: bold;
+      margin-right: 10px;
+    }
+    
+    .collection-info {
+      display: flex;
+      align-items: center;
+      flex-grow: 1;
+    }
+    
+    .collection-image {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    
+    .collection-name {
+      font-weight: bold;
+    }
+    
+    .eth-value {
+      font-size: 0.9em;
+      color: #666;
+      margin-left: auto;
+    }
+    
+    .percentage {
+      font-size: 1em;
+      font-weight: bold;
+    }
+    
+    .percentage.positive {
+      color: #18c267;
+    }
+    
+    .percentage.negative {
+      color: #f45858;
+    }
+    
+    .right-column-content {
+      flex-grow: 1;
+      font-size: 1.2rem;
+    }
+    .user-logo,.right {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+    }
+    .right-first{
+      background-image: url(../img/right-first.png);
+    }
+    
+   h2 {
+    font-size: 1.8em;
+    color: #000;
+    text-transform: uppercase;
+  }
+  
+  .main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main-box {
+    width: 70%;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  
+  .side-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+  }
+  
+  .small-box {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+  }
+  
+  .caption h5 {
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+  
+  .caption .user-logo {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+  
+  .caption .btn-outline-primary {
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  .bg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .image1 { background-image: url(../img/4.png); }
+  .image2 { background-image: url(../img/2.jfif); }
+  .image3 { background-image: url(../img/right-one.png) }
+  .image4 { background-image: url(../img/right-two.png); }
+  
+  .image6 { background-image: url(../img/3.jfif); }
+  .image7 { background-image: url(../img/right-one.png); }
+  .image8 { background-image: url(../img/2.jfif); }
+  .image9 { background-image: url(../img/1.jfif); }
+  
+  .image10 { background-image: url(../img/right-bg.png); }
+  .image11 { background-image: url(../img/right-first-img.png); }
+  .image12 { background-image: url(../img/third-bid.png); }
+  .image13 { background-image: url(../img/2.jfif); }
+  .nft-section {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nft-images-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .nft-image-wrapper {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  .wrap2{
+    width: 100px;
+    height: 100px;
+  }
+  .wrap3{
+    height: 125px;
+    width: 125px;
+  }
+  .nft-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .nft-profile {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    bottom: 10px;
+    right: 10px;
+  }
+  .nft-content h2 {
+    font-weight: bold;
+  }
+  .nft-button {
+    background-color: #6f1cff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+  .category-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+  }
+  .categories {
+    display: flex;
+    gap: 10px;
+  }
+  .category-button {
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  .category-button.active {
+    background-color: rgb(81, 0, 255);
+    color: white;
+  }
+  .category-button:not(.active) {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  .all-filters-button {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    color: blue;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  .all-filters-button .filter-icon {
+    margin-right: 5px;
+  }
+  .card {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-color {
+    height: 200px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin: 5px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .user-logos {
+    position: absolute;
+    bottom: -15px;
+    left: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-logos img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: -10px; 
+    border: 2px solid #fff;
+  }
+  
+  .place-bid-btn {
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  .text{
+    color: #000;
+  }
+  .color1 { background-image: url(../img/3.jfif); }
+  .color2 { background-image: url(../img/2.jfif); }
+  .color3 { background-image: url(../img/ntf-image.png); }
+  .color4 { background-image: url(../img/4.png); }
+  
+@media(width<750px){
+  .image-section{
+    margin: 50px auto 70px;
+  }
+  .remove{
+    display: none;
+  }
+}
