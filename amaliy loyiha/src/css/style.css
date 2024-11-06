@@ -526,51 +526,7 @@ body, html {
   .all-filters-button .filter-icon {
     margin-right: 5px;
   }
-  .card {
-    border: none;
-    border-radius: 16px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .card-color {
-    height: 200px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    margin: 5px;
-    position: relative;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  
-  .user-logos {
-    position: absolute;
-    bottom: -15px;
-    left: 15px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .user-logos img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    margin-right: -10px; 
-    border: 2px solid #fff;
-  }
-  
-  .place-bid-btn {
-    border-radius: 20px;
-    font-weight: bold;
-  }
-  .text{
-    color: #000;
-  }
-  .color1 { background-image: url(../img/3.jfif); }
-  .color2 { background-image: url(../img/2.jfif); }
-  .color3 { background-image: url(../img/ntf-image.png); }
-  .color4 { background-image: url(../img/4.png); }
-  
+
 @media(width<750px){
   .image-section{
     margin: 50px auto 70px;
@@ -578,4 +534,68 @@ body, html {
   .remove{
     display: none;
   }
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.btn-primary {
+  background-color: #6c5ce7;
+  border-color: #6c5ce7;
+}
+
+.nft-card {
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.my-nft-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.badge-info {
+  background-color: #f39c12;
+  font-size: 0.8rem;
+  color: white;
+}
+
+.my-card .rounded-circle {
+  width: 30px;
+  height: 30px;
+  border: 2px solid white;
+  margin-right: -8px;
+}
+
+.btn-outline-primary {
+  color: #6c5ce7;
+  border-color: #6c5ce7;
+}
+
+.btn-outline-primary:hover {
+  background-color: #6c5ce7;
+  color: white;
+}
+
+.btn-outline-secondary {
+  border-color: #6c5ce7;
+  color: #6c5ce7;
+}
+
+.text-muted {
+  font-size: 0.9rem;
 }
