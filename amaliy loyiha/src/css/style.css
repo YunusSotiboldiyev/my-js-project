@@ -534,6 +534,9 @@ body, html {
   .remove{
     display: none;
   }
+  .my-none{
+  display:none;
+  }
 }
 
 body {
